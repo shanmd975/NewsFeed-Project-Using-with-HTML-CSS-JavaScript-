@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(
+        90deg, rgba(46, 44, 45, 1) 0%,
+        rgba(66, 64, 67, 1) 100%
+    );
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 600px;
+  }
+  h1{
+    color: #008000;
+    font-size: 50px;
+}
+  
+  nav {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  main {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .newsItem {
+    border: 3px solid  #00fc28;
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: left;
+    background: #7e7878;
+    border-radius: 0px 20px 0px 20px;
+  }
+  h2 {
+    font-size: 26px;
+    color: #ffeb00f0;
+ }
+  
+  #saveButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  #likeButton {
+    margin-top: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .img{
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: #0d0e0e 2px 1px 14px 11px;
+  }
+  
+  #box{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  
+  #innerbox{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #loadSavedButton{
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600px;
+    padding: 10px;
+  }
+  
+  #loadNewsButton{
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600px;
+    padding: 10px;
+   
+  }
+  
+  #categorySelect{
+    font-size: 20px;
+    padding: 10px;
+    color: #e2ca00;
+  }
+  
+  #header{
+    display: flex;
+    flex-direction: row;
+    gap: 8em;
+  }
+ .btton{
+    position: relative;
+    width: 9em;
+    height: 3em;
+    margin-left: 16px;
+    border-radius: 10px 8px 10px 20px;
+    outline: none;
+    border: 3px solid #090909;
+    background: linear-gradient(
+        145deg, #171717, #444245
+    );
+    box-shadow: inset 2px 2px 0px #7d7c7e,
+        inset -2px -2px 0px #1c1c1c;
+        color: rgb(238, 235, 235);
+  } 
+  .btton::before{
+    content: "";
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: inherit;
+    background: linear-gradient(
+        145deg, #262626, #606060  
+    );
+    width: 9.25em;
+    height: 3.25;
+    z-index: -1;
+    box-shadow: 11px 11px 22px #141414,
+            -11px -11px 22px #525252
+  }
+  .btton:hover{
+    color: skyblue;
+  }
+ .saveBtn{
+    background-color: red;
+ }
+  p{
+    color: #000000d1;
+    font-size: 20px;
+  }
+.fa-solid{
+  margin-left: 20px;
+  font-size: 35px;
+  color: white;
+}
+.red{
+    color: red;
+}

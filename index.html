@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Fast Track.News</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/ea77adab0d.js" crossorigin="anonymous"></script>
+  <script src="App.js" defer></script>
+</head>
+
+<body>
+  <div class="lds-dual-ring"></div>
+  <header>
+    <h1>Fast Track.News</h1>
+  </header>
+
+  <nav>
+    <div id="header">
+      <select id="categorySelect" class="btton">
+        <option value="science">SCIENCE</option>
+        <option value="all">ALL</option>
+        <option value="business">BUSINESS</option>
+        <option value="sports">SPORTS</option>
+        <option value="world">WORLD</option>
+        <option value="politics">POLITICS</option>
+        <option value="hatke">HATKE</option>
+        <option value="automobile">AUTOMOBILE</option>
+      </select>
+      <button class="btton" id="loadNewsButton" onclick="showDiv()">L͢o͢a͢d͢ N͢e͢w͢s͢</button>
+      <button class="btton" id="loadSavedButton">S͢a͢v͢e͢d͢ N͢e͢w͢s͢</button>
+    </div>
+  </nav>
+
+  <main>
+    <div id="hidden" style="display: none;">
+      <div id="newsContainer"></div>
+    </div>
+  </main>
+
+</body>
+
+</html>
